@@ -1,0 +1,30 @@
+{
+  "name": "devlife.api",
+  "version": "1.0.0",
+  "description": "API for Promethean project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nsargeant/devlife.api.git"
+  },
+  "keywords": [
+    "devlife"
+  ],
+  "author": "nsargeant <nathan.s.sargeant@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/nsargeant/devlife.api/issues"
+  },
+  "homepage": "https://github.com/nsargeant/devlife.api#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "cors": "^2.7.1",
+    "express": "^4.13.3",
+    "lodash": "^3.10.1",
+    "node-uuid": "^1.4.3",
+    "pg": "^4.4.2"
+  }
+}
